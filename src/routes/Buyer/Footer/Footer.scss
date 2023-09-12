@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.social-media {
+    .grid-social {
+        width: 1200px;
+        max-width: 100%;
+        margin: 0 auto;
+        .title-social {
+            margin: 25px 0;
+        }
+        .row-social {
+            display: flex;
+            .col-social {
+                width: 50%;
+                display: flex;
+                flex-wrap: wrap;
+                .social1 {
+                    background-size: 122px 30px;
+                    border-radius: 3px;
+                }
+            }
+        }
+    }
+}
+
+.social-media {
+    .grid-social {
+        width: 1200px;
+        max-width: 100%;
+        margin: 0 auto;
+        .title-social {
+            font-size: 32px;
+            line-height: 32px;
+            color: #212121;
+            font-weight: 500;
+            &::before {
+                content: "";
+                border-left: 3px solid #cc0000;
+                margin-right: 10px;
+            }
+        }
+    }
+    .row-social {
+        display: flex;
+        .col-social {
+            width: 50%;
+            .img {
+                height: 500px;
+                background-size: 200px auto;
+            }
+            .information {
+                padding: 40px 0;
+                .header {
+                    font-size: 24px;
+                    font-weight: bold;
+                    margin-bottom: 15px;
+                }
+                ol {
+                    text-decoration: none;
+                    margin: 20px 0;
+                    li {
+                        line-height: 18px;
+                        font-size: 14px;
+                        font-weight: 400;
+                        color: #333;
+                        margin-bottom: 5px;
+                    }
+                }
+                .link-app {
+                    .googleplay {
+                        display: inline-block;
+                        // background: url('../../../assets/images/HomeFooter/google-play-badge.svg') no-repeat center;
+                        background-size: cover;
+                        width: 135px;
+                        height: 40px;
+                        cursor: pointer;
+                    }
+                    .appstore {
+                        display: inline-block;
+                        // background: url('../../../assets/images/HomeFooter/app-store-badge-black.svg') no-repeat center;
+                        background-size: cover;
+                        width: 120px;
+                        height: 40px;
+                        cursor: pointer;
+                    }
+                }
+                .link-auto {
+                    color: #cc0000;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+.download {
+    .grid-download {
+        width: 1200px;
+        max-width: 100%;
+        margin: 0 auto;
+        .row-download {
+            display: flex;
+            .col-download {
+                width: 50%;
+            }
+        }
+    }
+}
+
+.copyright {
+    background-color: #cc0000;
+    padding: 10px 0;
+    .grid {
+        width: 1200px;
+        max-width: 100%;
+        margin: 0 auto;
+        .left {
+            margin-top: 2px;
+            text-align: left;
+            color: #fff;
+            font-size: 15px;
+        }
+        .right {
+            text-align: right;
+        }
+    }
+}

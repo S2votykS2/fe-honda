@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.product {
+    .grid {
+        width: 1200px;
+        max-width: 100%;
+        margin: 0 auto;
+        .pre-carousel {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .content-left {
+                font-size: 32px;
+                line-height: 32px;
+                color: #212121;
+                font-weight: 500;
+                &::before {
+                    content: "";
+                    border-left: 5px solid #cc0000;
+                    margin-right: 5px;
+                }
+            }
+            .content-right {
+                display: flex;
+                font-size: 18px;
+                font-weight: 50;
+                color: #707070;
+                text-transform: uppercase;
+                margin: 10px 0;
+                .motorbike {
+                    border-radius: 20px;
+                    border: 1px solid #707070;
+                    padding: 5px 40px;
+                    margin: 0 10px;
+                    width: 180px;
+                    text-align: center;
+                    cursor: pointer;
+                    &:hover {
+                        color: rgb(204, 0, 0);
+                        border-color: rgb(204, 0, 0);
+                    }
+                }
+                .car {
+                    border-radius: 20px;
+                    border: 1px solid #707070;
+                    padding: 5px 40px;
+                    margin: 0 10px;
+                    width: 180px;
+                    text-align: center;
+                    cursor: pointer;
+                    &:hover {
+                        color: rgb(204, 0, 0);
+                        border-color: rgb(204, 0, 0);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.adjust-customize {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    bottom: 180px;
+    .adjust__btn-left {
+        border: none;
+        outline: none;
+        background-color: transparent;
+        margin: 0 23px;
+        font-size: 23px;
+        color: #173e66;
+        border: 1px solid #ccc;
+        padding: 0 10px;
+        border-radius: 50%;
+        position: relative;
+        right: 80px;
+    }
+    .adjust__btn-right {
+        border: none;
+        outline: none;
+        background-color: transparent;
+        margin: 0 23px;
+        font-size: 23px;
+        color: #173e66;
+        border: 1px solid #ccc;
+        padding: 0 10px;
+        border-radius: 50%;
+        position: relative;
+        left: 80px;
+    }
+}
+
+.slide-item {
+    height: 280px;
+    width: 270px;
+    position: relative;
+    &:hover {
+        .item-hover {
+            visibility: visible;
+            &.hover-active {
+                // visibility: visible;
+            }
+        }
+    }
+    .image-item {
+        height: 200px;
+        padding: 0 15px;
+    }
+    .name-item {
+        font-size: 24px;
+        color: #cc0000;
+        font-weight: 600;
+        text-align: center;
+    }
+    .price-item {
+        font-size: 16px;
+        color: #212121;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .item-hover {
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: rgba(204, 0, 0, 0.1);
+        height: 145px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        visibility: hidden;
+        .item-hover-name {
+            width: 145px;
+            background-color: rgb(204, 0, 0);
+            color: #fff;
+            padding: 7px 35px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+        &.hover-active {}
+    }
+    .color-item {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        .color-item-specific {
+            height: 18px;
+            width: 18px;
+            border: 1px;
+            border-radius: 50%;
+            background-color: #173e66;
+            margin-right: 6px;
+        }
+    }
+}

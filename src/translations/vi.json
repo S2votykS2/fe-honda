@@ -1,0 +1,70 @@
+{
+
+    "login": {
+        "login": "Đăng nhập",
+        "username": "Tên đăng nhập",
+        "password": "Mật khẩu",
+        "forgot": "Quên mật khẩu",
+        "other-login": "Hoặc đăng nhập với"
+    },
+    "menu": {
+        "system": {
+            "header": "Quản trị viên",
+            "manage": {
+                "manage-user": "Quản lý người dùng",
+                "manage-specific": {
+                    "manage-seller": "Quản lý khách hàng",
+                    "manage-customer": "Quản lý người bán"
+                },
+                "booking-try-drive": "Quản lý lái thử xe ôtô"
+            }
+        },
+        "motorbike": {
+            "header": "Xe máy",
+            "manage": {
+                "product": "Sản phẩm",
+                "detail": {
+                    "intro": "Giới thiệu sản phẩm",
+                    "type": "Kiểu dáng, màu sắc sản phẩm",
+                    "info": "Thông tin kỹ thuật sản phẩm"
+                },
+                "accessories": "Phụ tùng"
+            }
+        },
+        "car": {
+            "header": "Ô tô",
+            "manage": {
+                "product": "Sản phẩm",
+                "detail": {
+                    "color": "Kiểu dáng, màu sắc xe",
+                    "base": "Thông tin cơ bản của xe",
+                    "technology": "Thông tin kỹ thuật xe"
+                },
+                "accessories": "Phụ tùng"
+            }
+        },
+        "home": {
+            "header": "Trang chủ",
+            "manage": {
+                "header": "Quản lý Header",
+                "slider": "Quản lý Slider",
+                "product": "Quản lý sản phẩm",
+                "operation": "Quản lý hoạt động",
+                "news": "Quản lý tin tức"
+            }
+        }
+    },
+    "manage-user": {
+        "create-user": {
+            "header": "Tạo người dùng",
+            "password": "Mật khẩu",
+            "firstName": "Họ",
+            "lastName": "Tên",
+            "gender": "Giới tính",
+            "address": "Địa chỉ",
+            "phoneNumber": "Số điện thoại",
+            "role": "Vai trò",
+            "avatar": "Ảnh đại diện"
+        }
+    }
+}

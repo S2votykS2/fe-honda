@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 3;
+    .prenav__list {
+        height: 44px;
+        list-style: none;
+        display: flex;
+        max-width: 1200px;
+        width: 100%;
+        justify-content: right;
+        align-items: center;
+        .prenav__item {
+            margin: 0 10px;
+            .prenav__link {
+                font-size: 12.5px;
+                color: #212121;
+                &:hover {
+                    color: #CC0000;
+                }
+            }
+        }
+    }
+    .nav {
+        height: 50px;
+        background-color: #CC0000;
+        .nav__list {
+            cursor: pointer;
+            margin: 0 auto;
+            max-width: 1200px;
+            width: 100%;
+            padding: 0;
+            display: flex;
+            margin: 0 auto;
+            list-style: none;
+            height: 100%;
+            .nav__item {
+                padding: 0;
+                margin: 0;
+                &:hover {
+                    background-color: #9D0202;
+                    .subnav--active {
+                        display: block;
+                    }
+                }
+                .nav__link {
+                    line-height: 50px;
+                    font-weight: 700;
+                    font-size: 15px;
+                    color: #fff;
+                    padding: 0 24px;
+                    display: block;
+                    height: 50px;
+                }
+                .subnav {
+                    display: none;
+                    &.subnav--active {
+                        // display: block;
+                    }
+                }
+                .subnav__list {
+                    // box-shadow: 5px 5px rgba($color: #fff, $alpha: 0.8);
+                    .subnav__item {
+                        height: 50px;
+                        background-color: #fff;
+                        border-bottom: 1px solid #ccc;
+                        &:hover {
+                            background-color: #CC0000;
+                            .subnav__link {
+                                color: #fff;
+                            }
+                            .extra__list {
+                                &.extra__list--active {
+                                    display: block;
+                                }
+                                .extra__item {
+                                    &:hover {
+                                        background-color: #CC0000;
+                                        .extra__link {
+                                            color: #fff;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        &.extra {
+                            position: relative;
+                            display: flex;
+                            .extra__list {
+                                display: none;
+                                position: absolute;
+                                top: 0px;
+                                right: 0px;
+                                transform: translateX(100%);
+                                .extra__item {
+                                    height: 50px;
+                                    background-color: #fff;
+                                    border-bottom: 1px solid #ccc;
+                                    .extra__link {
+                                        display: block;
+                                        color: #212121;
+                                        height: 50px;
+                                        line-height: 50px;
+                                        padding: 0 10px;
+                                    }
+                                }
+                            }
+                        }
+                        .subnav__link {
+                            display: block;
+                            color: #212121;
+                            height: 50px;
+                            line-height: 50px;
+                            padding: 0 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.test2 {
+    height: 500px;
+    background-color: #ddd;
+}

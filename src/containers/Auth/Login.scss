@@ -1,0 +1,79 @@
+.login-background {
+    height: 100vh;
+    background: linear-gradient(135deg, rgba(34, 193, 195, 1)0%, rgba(253, 187, 45, 1)100%);
+    .login-container {
+        position: fixed;
+        top: 50%;
+        transform: translateY(-50%);
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background-color: white;
+        width: 350px;
+        height: 450px;
+        margin: 0 auto;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        .login-content {
+            padding: 10px;
+            .login-text {
+                text-align: center;
+                font-weight: 600;
+                font-size: 24px;
+                padding-top: 10px;
+            }
+            .login-input {
+                margin: 8px 0px;
+                span {
+                    cursor: pointer;
+                    float: right;
+                    font-size: 16px;
+                }
+            }
+            .login-btn {
+                width: 100%;
+                margin: 10px 0;
+                line-height: 30px;
+                border-radius: 15px;
+                outline: none;
+                border: none;
+                background: linear-gradient(135deg, rgba(34, 193, 195, 1)0%, rgba(253, 187, 45, 1)100%);
+                font-size: 20px;
+                color: #fff;
+                font-weight: 600;
+            }
+            .forgot-password {
+                font-size: 12px;
+            }
+            .login-social {
+                display: flex;
+                justify-content: center;
+                .gg {
+                    background: #ccc;
+                    // color: rgb(48, 122, 255);
+                    font-size: 30px;
+                    border-radius: 50%;
+                    height: 50px;
+                    width: 50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: pointer;
+                }
+                .fb {
+                    background: #ccc;
+                    // color: rgb(48, 122, 255);
+                    font-size: 30px;
+                    border-radius: 50%;
+                    height: 50px;
+                    width: 50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-left: 10px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

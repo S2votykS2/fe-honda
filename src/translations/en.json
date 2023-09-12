@@ -1,0 +1,69 @@
+{
+    "login": {
+        "login": "Login",
+        "username": "Username",
+        "password": "Password",
+        "forgot": "Forgot your password ?",
+        "other-login": "Or login with"
+    },
+    "menu": {
+        "system": {
+            "header": "Admin",
+            "manage": {
+                "manage-user": "Manage User",
+                "manage-specific": {
+                    "manage-seller": "Manage Seller",
+                    "manage-customer": "Manage Customer"
+                },
+                "booking-try-drive": "Manage Booking Try Drive Car"
+            }
+        },
+        "motorbike": {
+            "header": "Motorbike",
+            "manage": {
+                "product": "Products",
+                "detail": {
+                    "color": "Type/color of Cars",
+                    "base": "Base information of Cars",
+                    "technology": "Technology information of Cars"
+                },
+                "accessories": "Accessories"
+            }
+        },
+        "car": {
+            "header": "Car",
+            "manage": {
+                "product": "Products",
+                "detail": {
+                    "intro": "Introduce product",
+                    "type": "Type product",
+                    "info": "Technology product"
+                },
+                "accessories": "Accessories"
+            }
+        },
+        "home": {
+            "header": "HomePage",
+            "manage": {
+                "header": "Manage Header",
+                "slider": "Manage Slider",
+                "product": "Manage Product",
+                "operation": "Manage Operation",
+                "news": "Manage News"
+            }
+        }
+    },
+    "manage-user": {
+        "create-user": {
+            "header": "Create new user",
+            "password": "Password",
+            "firstName": "FirstName",
+            "lastName": "LastName",
+            "gender": "Gender",
+            "address": "Address",
+            "phoneNumber": "PhoneNumber",
+            "role": "Role",
+            "avatar": "Avatar"
+        }
+    }
+}
